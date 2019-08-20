@@ -1,6 +1,20 @@
 # NLTK DeepLearning Chatbot
 The Natural Language Toolkit, or more commonly NLTK, is a suite of libraries and programs for symbolic and statistical natural language processing (NLP) for English written in the Python programming language
 
+What it is?
+-----
+ > It is NLTK based simple chatbot and it will be more suitable for FAQ based question & Answers 
+
+How do I enhance this chatbot for my work?
+-----
+ > Edit intent.json file and train the model as described below
+ > and use it
+
+Where do i get the reference tutorial for enhancements?
+-----
+ * > https://www.nltk.org/
+ * > https://www.nltk.org/api/nltk.chat.html
+ 
 Installation Steps
 -----
  * > git clone git@github.com:prabhakar2020/nltk_deeplearning_chatbot.git
