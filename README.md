@@ -17,14 +17,17 @@ Execution steps
  * Once training is completed, use this command to test/run the chatting application. 
  > **python nltk_chatbot.py**
  
- 
+Workflow
+-----
+![alt text](https://github.com/prabhakar2020/nltk_deeplearning_chatbot/blob/master/nltk_chatbot.png)
+
 Info
 -----
 * User can find the input file on ** intents.json** on **data** folder and can fill the questions pattern and possible responses.
 * Once training is completed, it will generate the **model.tflearn** file(s) on model directory
 * Train  If we re-run the program with **train** mode, it will overwrite the existing model.
 * If we re run the program with chatting mode, then it will load the existing model.tflearn file and will start the chatting application.
-*  For debugging, please refer **chatbot.log** file on your working directory
+* For debugging, please refer **chatbot.log** file on your working directory
  
  
 **Note:**
