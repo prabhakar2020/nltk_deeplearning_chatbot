@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\study\\nltk_chatbot_working\\model\\model.train"
+all_model_checkpoint_paths: "D:\\study\\nltk_chatbot_working\\model\\model.train"
