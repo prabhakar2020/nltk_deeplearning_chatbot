@@ -149,10 +149,12 @@ if __name__ == "__main__":
             from train_model import TRAIN_DYNAMIC_MODEL
             words, labels, training, output, st_time, ed_time = TRAIN_DYNAMIC_MODEL().train(obj.intents_file, obj.data_pickle_file, obj.model_tflearn_file)
             print ("*"*100)
-            print ("Started the Training at -",st_time)
-            print ("Completed the training  -",ed_time)
+            print ("Started the Training at         -",st_time)
+            print ("Completed the training          -",ed_time)
+            print ("Total training time in minutes  -",round((ed_time-st_time).total_seconds()/60.0,2))
             print ("*"*100)
             obj.logger("Started the Training at -"+str(st_time))
             obj.logger("Completed the training  -"+str(ed_time))
+            obj.logger("Total training time in minutes  :"+str(round((ed_time-st_time).total_seconds()/60.0,2)))
     else:
         NLTK_DEEPLEARNING_CHATBOT().initialize()
