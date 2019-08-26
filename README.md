@@ -42,7 +42,27 @@ Info
 * Train  If we re-run the program with **train** mode, it will overwrite the existing model.
 * If we re run the program with chatting mode, then it will load the existing model.tflearn file and will start the chatting application.
 * For debugging, please refer **chatbot.log** file on your working directory
- 
+
+Usage
+-----
+ * > **You: hello**
+ * > Hi there, how can I help?
+ * > **You: i want to stop my cheque payment**
+ * > To make a Stop Payment request on an issued Cheque, kindly follow the steps mentioned below: 1. Log in to your NetBanking account 2. Click
+on the Stop Payment of Cheque option available under Request menu on the left hand side of the web page Select the Account Number (if more
+than 1 account) Enter first/Start cheque number to the last/End cheque number, with a reason for stopping the payment. Click on Continue. On the next web page, you can verify and click on Confirm tab to confirm the stop payment request.
+ * > **You: how do i open joint account**
+ * > Yes, parents, spouse, child or sibling can be a joint applicant to an account. The joint applicant will need to submit a valid photo ID and address proof.
+ * > **You: I want to reset my credit card password**
+ * > To report lost/stolen credit card and reissue through website, follow these simple steps: Step 1 Log in to your account on sbicard.com Step 2 Click on â€˜Report Lost/Stolen Cardâ€™ under the â€˜Requestsâ€™ tab on the left
+ * > **You: I want to add nominee in my account**
+ * > When a card is lost or stolen or damaged, the same should be blocked immediately and reissued.  Request to block & reissue of card can be made through following channels:-Website sbicard.com
+ * > **You: I lost my credit card what should i do**
+ * > When a card is lost or stolen or damaged, the same should be blocked immediately and reissued.  Request to block & reissue of card can be made through following channels:-Website sbicard.com
+ * > **You: I need home loan**
+ * > For applying loan, please contact your nearest branch for more details
+ * > **You: exit**
+ * > ..... Thank you!!
  
 **Note:**
 ----------
